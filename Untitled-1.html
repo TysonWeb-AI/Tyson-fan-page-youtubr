@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cristyson YouTube Fan Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #ff5f6d, #ffc371);
+            color: #222;
+        }
+        header {
+            text-align: center;
+            padding: 2rem 1rem 1rem 1rem;
+        }
+        header img {
+            width: 120px;
+            border-radius: 50%;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+            margin-bottom: 1rem;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin: 0.5rem 0;
+            letter-spacing: 2px;
+        }
+        .youtube-btn {
+            display: inline-block;
+            background: #7487e4;
+            color: #5d23dba3;
+            padding: 0.75rem 2rem;
+            border-radius: 30px;
+            font-size: 1.2rem;
+            text-decoration: none;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            transition: background 0.2s;
+            margin-top: 1rem;
+        }
+        .youtube-btn:hover {
+            background: #4dbddc;
+        }
+        main {
+            max-width: 700px;
+            margin: 2rem auto;
+            background: rgba(255,255,255,0.85);
+            border-radius: 16px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+            padding: 2rem;
+        }
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        .video-card {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+        .video-card:hover {
+            transform: translateY(-6px) scale(1.03);
+        }
+        .video-card iframe {
+            width: 100%;
+            height: 180px;
+            border: none;
+            display: block;
+        }
+        .video-title {
+            padding: 0.75rem 1rem;
+            font-size: 1rem;
+            font-weight: 500;
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem 1rem;
+            color: #fff;
+            font-size: 1rem;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://yt3.ggpht.com/ytc/AKedOLQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQ=s176-c-k-c0x00ffffff-no-rj" alt="Cristyson Logo" />
+    <h1>Cris Tyson</h1>
+    <p>Welcome to the coolest fan site for Cris Tyson's YouTube channel!</p>
+    <a class="youtube-btn" href="https://www.youtube.com/@Cris_Tyson" target="_blank">Visit Cris Tyson on YouTube</a>
+    </header>
+    <main>
+        <h2>Featured Videos</h2>
+        <div class="video-card">
+                <iframe src="https://www.youtube.com/embed/ADMIN_ABUSE_WAR_ID" allowfullscreen></iframe>
+                <div class="video-title">Admin Abuse War</div>
+            </div>
+            <!-- Aggiungi altri video qui -->
+        </div>
+    </main>
+    <footer>
+        &copy; 2024 Cristyson Fan Site &mdash; Made with ❤️ for fans!
+    </footer>
+</body>
+</html>
